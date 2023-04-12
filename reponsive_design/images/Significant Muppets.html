@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://127.0.0.1:5500/adv_css/contactIndex.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Significant Muppets</title>
+    
+<link rel="stylesheet" href="http://127.0.0.1:5500/adv_css/css/styles.css?_cacheOverride=1681310824840"></head>
+<body>
+<div id="container">
+    <header>
+        <h1>Profiles in Significant Muppethood</h1>
+        <img src="./Significant Muppets_files/muppets.webp" alt="The Muppets">
+    </header>
+
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/adv_css/index.html">Kermit</a></li>
+                <li><a href="http://127.0.0.1:5500/adv_css/gonzoIndex.html">Gonzo</a></li>
+                <li><a href="http://127.0.0.1:5500/adv_css/rizzoIndex.html">Rizzo</a></li>
+                <li><a href="http://127.0.0.1:5500/adv_css/contactIndex.html">Contact us!</a></li>
+
+
+            </ul>
+        </nav>
+        <main>
+            <section id="contactSection">
+               <h2>Contact us for a variety of Muppet Services!</h2>
+               <p>Many people don't realize that, not only are we an establish production house with a 
+                long track record of success, we are also a world-class catering company!  Our Swedish Chef
+                has collaborated with the likes of Gordon Ramsay and also manages to run an efficient kitchen despite
+                the fact that none of his staff understand a word he's saying.  If you want to put together a professional 
+                film shoot or an elegant dining event, and you don't mind that some of the dishes may talk, then we're your                Muppets!
+               </p>
+            
+
+
+            
+               <table>
+        
+                <tbody><tr>
+                    <th>Production Services</th> 
+                    <th>Catering Services</th>   
+                </tr>
+
+                <tr>
+                    <td>Contact: Scooter</td>
+                    <td>Contact: The Swedish Chef</td>
+                </tr>
+
+                <tr>
+                    <td><img src="./Significant Muppets_files/productionScooter.jpg" alt="Scooter"></td>
+                    <td><img src="./Significant Muppets_files/cateringRamsay.jpg" alt="Chef and Ramsay"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        
+                     Muppet Studios <br>
+                     1234 Puppet Blvd. <br>
+                     Burbank, CA 91510 <br>
+                     (818)555-1234 <br>
+                    
+                       
+                     </td>
+                     <td>
+                 
+                        Muppet Kitchens<br>
+                        Hurdey-Gurdey St.<br>
+                        Burbank, CA 91510<br>
+                        (818)555-1235<br>
+                        
+                     </td>
+                </tr>
+               </tbody></table>
+            
+            
+            </section>
+
+        </main>
+        <div id="lower_area">
+            <div class="col"> 
+                 <h3>Kermit The Frog</h3>
+                 <p>stuff about kermit</p>
+                 <img src="./Significant Muppets_files/kermit_bango_profile.jpg" alt="Kermit Bango">
+                 <a class="button" href="http://127.0.0.1:5500/adv_css/index.html">Kermit</a>
+            </div>
+            
+            <div class="col"> 
+                 <h3>Gonzo the Weirdo</h3>
+                <p>stuff about gonzo</p>
+                <img src="./Significant Muppets_files/Gonzo2.webp" alt="Kermit Bango">
+                <a class="button" href="http://127.0.0.1:5500/adv_css/index.html">Gonzo</a>
+            </div>
+     
+            <div class="col"> 
+                <h3>Rizzo the Rat</h3>
+                <p>stuff about rizzo</p>
+                <img id="rizzoImage" src="./Significant Muppets_files/RizzoTheRat.webp" alt="Kermit Bango">
+                <a class="button" href="http://127.0.0.1:5500/adv_css/rizzoIndex.html">Rizzo</a>
+            </div>
+
+            <div class="col"> 
+                <h3>Contact Info</h3>
+                <p>Contact Us!</p>
+                <img id="phoneImage" src="./Significant Muppets_files/manhattan_phone.jpg" alt="Contact Us!">
+                <a class="button" href="http://127.0.0.1:5500/adv_css/contactIndex.html">Contact Us!</a>
+           </div>
+        </div>
+        <footer>© 2023 Committee to Elect Any One of the Muppets as President</footer>
+
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
