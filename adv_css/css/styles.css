@@ -79,6 +79,10 @@ section, aside {
     border-radius: 10px;
 }
 
+#contactSection {
+    margin-left: auto;
+    margin-right: auto;
+}
 section {
     width: 70%;
 }
@@ -149,4 +153,37 @@ footer {
     border-color: #400913;
 }
 
+
+#rizzoImage {
+    width: 135px;
+    height: 100px;
+}
+
+#phoneImage {
+    width: 160px;
+    height: 100px;
+}
+
+#servicesDiv {
+    display: flex;
+    gap: 5px;
+}
+
+table {
+    border: 4px solid #A62447;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    border-radius: 5px;
+ }
+
+th,td,tr {
+    border: 10px double  forestgreen;
+    text-align: center;
+    border-radius: 5px;
+}
+
+td,tr {
+    font-weight: bolder;
+}
 
