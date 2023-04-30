@@ -3,11 +3,13 @@ header img {
 }
 
 header h1 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-shadow: 2px 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     color: #400913;
     text-align: center;
     font-weight: bold;
@@ -28,7 +30,7 @@ img {
     background-color: #F2CB05;
     border-radius: 10px;
     border: 6px solid rgb(141, 169, 100);
-    
+
 }
 
 nav {
@@ -58,7 +60,7 @@ nav li a {
     padding: 5px 0;
     border: 4px double forestgreen;
     border-radius: 10px;
-    
+
 
 }
 
@@ -70,18 +72,19 @@ main {
     padding: 5px;
 }
 
-section, aside {
+section,
+aside {
     border: 4px solid #A62447;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
 }
 
 aside img {
     display: block;
-   padding: 20px 35px 30px 0px;
+    padding: 20px 35px 30px 0px;
     width: 225px;
     height: 175px;
 }
@@ -89,9 +92,9 @@ aside img {
 .col {
     text-align: center;
     border: 4px solid #A62447;
-   
+
     border-radius: 10px;
-    
+
 }
 
 .col img {
@@ -107,7 +110,7 @@ footer {
     text-align: center;
     font-size: small;
     padding: 20px 0;
-    color:#400913;
+    color: #400913;
     font-weight: bold;
     border-radius: 10px;
 }
@@ -115,18 +118,21 @@ footer {
 table {
     border: 4px solid #A62447;
     margin-left: auto;
-    margin-right:auto;
-    text-align: center;
-    border-radius: 5px;
- }
-
-th,td,tr {
-    border: 10px double  forestgreen;
+    margin-right: auto;
     text-align: center;
     border-radius: 5px;
 }
 
-td,tr {
+th,
+td,
+tr {
+    border: 10px double forestgreen;
+    text-align: center;
+    border-radius: 5px;
+}
+
+td,
+tr {
     font-weight: bolder;
 }
 
@@ -136,7 +142,7 @@ td,tr {
     height: 20px;
     line-height: 10px;
     background-color: #A62447;
-    color:#F2CB05;
+    color: #F2CB05;
     text-decoration: #400913;
     margin-top: 10px;
     margin-left: auto;
@@ -149,7 +155,7 @@ td,tr {
 }
 
 @media (min-width: 768px) {
-     
+
     nav li {
         display: inline-block;
         margin: auto;
@@ -160,33 +166,33 @@ td,tr {
         margin: 20px 25px 20px 25px;
         padding: 10px 30px 10px 30px;
 
-}
+    }
 
 
-main{
-    display:flex;
-}
+    main {
+        display: flex;
+    }
 
 
 
-aside img{
-    height:150px;
-    width: 175px;
-    
-   }
-  
-   #lower_area {
-    display: flex;
-}
+    aside img {
+        height: 150px;
+        width: 175px;
+
+    }
+
+    #lower_area {
+        display: flex;
+    }
 
 
-.col {
-    text-align: center;
-    border: 4px solid #A62447;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 10px;
-}
+    .col {
+        text-align: center;
+        border: 4px solid #A62447;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+    }
 
 
 }
@@ -195,48 +201,307 @@ aside img{
 
 
 @media (min-width: 1024px) {
+
+
+    hr {
+        visibility: hidden;
+    }
+
+    .col {
+        margin: 20px;
+        padding: 20px;
+
+    }
+
+    section {
+        font-size: large;
+    }
+
+
+
+    aside img {
+
+        height: 130px;
+        width: 175px;
+    }
+
+
+    .col {
+        text-align: center;
+        border: 4px solid #A62447;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: auto
+    }
+
+    .col img {
+        display: block;
+        width: 125px;
+        height: 100px;
+    }
+
+    footer {
+        font-size: x-large;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//begin
+
+
+
+
+#splashHeader{
     
+    font-size:xx-large;
+    font-family: 'Bruno Ace SC', cursive;
 
-hr {
-    visibility: hidden;
+    text-shadow: 4px 4px #034001;
+    color: #0BD904;
+    
+    
+}
+#splashHTML{
+    background: url(/final_project/images/peerHFT.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
 }
 
-.col {
-    margin:  20px;
-    padding: 20px;
-   
-}
-
-section{
-    font-size: large;
-}
-
-
-
-aside img {
-
-    height:130px;
-    width: 175px; 
-}
-
-
-.col {
+h1 {
     text-align: center;
-    border: 4px solid #A62447;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    margin:auto
+    margin-left: 1%;
+    font-family: 'Bruno Ace SC', cursive;
+
+    color: #0BD904;
+    text-shadow: 4px 4px #034001;
 }
 
-.col img {
-    display: block;
-    width: 125px;
-    height: 100px;
+h2,h3,h4,h5{
+    font-family: 'Bruno Ace SC', cursive;
+
+    color: #0BD904;
+    text-align: center;
+    
 }
+
+#splashSection {
+    width: 50%;
+    
+}
+#splashP {
+    margin-left: 2%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+    color: #F252BA;
+    text-shadow: 2px 2px #2d1524;
+    
+    font-size: larger;
+}
+#splashContainer{
+    color: #0BD904;
+    border-radius: 10px;
+    border: 6px double #0BD904;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+    
+ 
+  
+}
+
+#splashDiv{
+    display: flex;
+}
+
+#splashNav{
+  
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+       
+    
+}
+
+.button:hover{
+    background-color: #0BD904;
+}
+.button{
+    font-family: 'Exo 2', sans-serif;
+
+    display: block;
+    width: 150px;
+    height: 20px;
+    line-height: 10px;
+    background-color:#F252BA;
+    color: #0BD904;
+    text-decoration: #400913;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    border: 4px double #0BD904;
+    border-radius: 10px;
+
+}
+
+#splashTrack{
+    margin-left: 9%;
+    margin-top: 10%;
+}
+
+
 
 footer{
-    font-size: x-large;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: larger;
+    color: #0BD904 ;
+    text-shadow: 2px 2px #2d1524;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
+ul{
+    list-style: none;
+}
+
+#headerMain {
+    font-family: 'Bruno Ace SC', cursive;
+  font-size: x-large;
+  text-shadow: 4px 4px #034001;
+    background: url(/final_project/images/pyro.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+hr{
+    height: 1px;
+    background-color: #0BD904;
+    border: none;
+}
+
+#bodyMain {
+    font-family: 'Bruno Ace SC', cursive;
+
+    background-color: black;
+    margin: auto;
+    display: inline;
+}
+
+iframe {
+
+    padding-top:2%;
+}
+#containerMain p {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    color: #F252BA;
+    text-shadow: 2px 2px #7f2d5f;
+    padding: 2%;
+    font-size: larger;
+}
+#containerMain   img {
+       
+        margin: 0 auto;
+        width: 100%;
+    }
+
+#mainDiv{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+#containerMain section, aside {
+    display: flex;
+   display: inline-block;
+    border: 4px solid #A62447;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto ;
+  
+}
+
+
+#containerMain aside img {
+    padding-top: 12%;
+    padding-bottom: 20%;
+   text-align: center;
+  height: 65%;
+  width: 90%;
+    
+
+}
+
+#lowerArea {
+    margin:auto;
+    text-align: center;
+}
+
+.col{
+    display: inline-block;
+    margin: 1%;
+}
+
+table {
+    border: 4px solid #F252BA;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+th,
+td,
+tr {
+    border: 2px double #0BD904;
+    text-align: center;
+    border-radius: 2px;
+    font-family: 'Bruno Ace SC', cursive; 
+    color: #F252BA;
+}
+
+td,
+tr {
+    font-weight: bolder;
+}
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 1024px) {
 
 }

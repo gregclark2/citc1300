@@ -1,0 +1,408 @@
+
+#splashHeader{
+    text-align: center;
+    font-size:xx-large;
+    font-family: 'Bruno Ace SC', cursive;
+
+    text-shadow: 4px 4px #034001;
+    color: #0BD904;
+    
+    
+}
+img{
+    display: block;
+}
+#splashHTML{
+    background: url(/final_project/images/peerHFT.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-left: 1%;
+    font-family: 'Bruno Ace SC', cursive;
+
+    color: #0BD904;
+    text-shadow: 4px 4px #034001;
+}
+
+h2,h3,h4,h5{
+    font-family: 'Bruno Ace SC', cursive;
+
+    color: #0BD904;
+    text-align: center;
+    
+}
+
+#splashSection {
+    width: 50%;
+    
+}
+#splashP {
+    margin-left: 2%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+    color: #F252BA;
+    text-shadow: 2px 2px #2d1524;
+    
+    font-size: larger;
+}
+#splashContainer{
+    color: #0BD904;
+    border-radius: 10px;
+    border: 6px double #0BD904;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+    
+    
+  
+}
+
+#splashDiv{
+    display: flex;
+}
+
+#splashNav{
+  
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+       
+    
+}
+
+.button:hover{
+    background-color: #0BD904;
+}
+.button{
+    font-family: 'Exo 2', sans-serif;
+
+    display: block;
+    width: 150px;
+    height: 20px;
+    line-height: 10px;
+    background-color:#F252BA;
+    color: #0BD904;
+    text-decoration: #400913;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    border: 4px double #0BD904;
+    border-radius: 10px;
+
+}
+
+#splashTrack{
+     color: #f024a9;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+
+
+
+footer{
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: larger;
+    color: #0BD904 ;
+    text-shadow: 2px 2px #2d1524;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+ul{
+    list-style: none;
+}
+
+#headerMain {
+    font-family: 'Bruno Ace SC', cursive;
+
+    background: url(/final_project/images/pyro.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+hr{
+    height: 1px;
+    background-color: #0BD904;
+    border: none;
+}
+
+#bodyMain {
+    font-family: 'Bruno Ace SC', cursive;
+
+    background-color: black;
+    margin: auto;
+    display: inline;
+}
+
+iframe {
+
+    padding-top:2%;
+}
+#containerMain p {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    color: #F252BA;
+    text-shadow: 2px 2px #7f2d5f;
+    padding: 2%;
+    font-size: larger;
+}
+#containerMain   img {
+       
+        margin: 0 auto;
+        width: 100%;
+    }
+
+#mainDiv{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+#containerMain section, aside {
+    display: flex;
+   display: inline-block;
+    border: 4px solid #A62447;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto ;
+  
+}
+
+
+#containerMain aside img {
+    padding-top: 12%;
+    padding-bottom: 20%;
+   text-align: center;
+  height: 65%;
+  width: 90%;
+    
+
+}
+
+#lowerArea {
+    margin:auto;
+    text-align: center;
+}
+
+.col{
+    display: inline-block;
+    margin: 1%;
+}
+
+table {
+    border: 4px solid #F252BA;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+th,
+td,
+tr {
+    border: 2px double #0BD904;
+    text-align: center;
+    border-radius: 2px;
+    font-family: 'Bruno Ace SC', cursive; 
+    color: #F252BA;
+}
+
+td,
+tr {
+    font-weight: bolder;
+}
+
+@media (max-width: 950px) {
+
+   
+body{
+    
+    background-image: url("/final_project/images/peerHFT.jpg"); 
+    background-repeat: repeat-y;
+    
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+
+#splashHeader{
+    
+    text-align: center;
+    font-size:4em;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 4px 4px #034001;
+    color: #55ea50;
+    background-image: url("/final_project/images/pyro.jpg");
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: auto;
+    font-family: 'Bruno Ace SC', cursive;
+    color: #0BD904;
+    text-shadow: 4px 4px #034001;
+   
+}
+
+h2,h3,h4,h5{
+    font-size: .1.5em;
+    font-family: 'Bruno Ace SC', cursive;
+    text-shadow: 4px 4px #034001;
+    color: #0BD904;
+    text-align: center;
+    
+}
+
+#splashP {
+    margin-left: 2%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+    color: #f024a9;
+    text-shadow: 2px 2px #2d1524;
+    font-size: 1.5em;
+    border: 2px double #0BD904;
+    padding: 2%;
+    backdrop-filter: blur(8px);
+    
+}
+
+#splashContainer{
+    color: #0BD904;
+    border-radius: 10px;
+    border: 6px double #0BD904;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    backdrop-filter: blur(8px);
+  
+}
+
+#splashNav{
+  display: block;
+  text-align: center;
+  margin-left: 5%;
+    
+    
+}
+
+#bodyMain{
+    background-color: black;
+    background-image: none;
+}
+
+#containerMain p {
+    font-size:2em;
+}
+}
+
+@media (max-width: 768px) {
+
+    #splashHTML{
+        
+        background: initial;
+        background-position: initial;
+        background-size: initial;
+        background-repeat: initial;
+        height: initial;
+        width: initial;
+        overflow: initial;
+        
+    }
+#splashHeader{
+    font-size: 3em;
+}
+
+
+
+img{
+    display:block;
+    margin:0 auto;
+    width: 100%;
+}
+
+
+
+#splashP {
+    color: #F252BA;
+    text-shadow: 2px 2px #2d1524;
+}
+
+
+
+#containerMain p{
+    border: 2px double #0BD904;
+    font-size: larger;
+   
+
+ 
+    text-align: center;
+}
+
+#mainDiv {
+    display: block;
+}
+
+#mainNav{
+    display: block;
+}
+.col{
+    display: block;
+}
+footer{
+    font-size: medium;
+}
+br{
+    display:none;
+}
+
+#splashDiv{
+    display: block;
+    padding-right: 0%;
+}
+#splashNav {
+    text-align: center;
+   
+    margin-right: 15%;
+}
+#splashSection{
+    width: 100%;
+}
+
+#splashDiv section {
+   margin-right: 0%; 
+   padding-right: 0%;  
+ 
+}
+#splashTrack{
+    width: 100%;
+
+}
+}
+
