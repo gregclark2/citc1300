@@ -189,6 +189,9 @@ iframe {
   
 }
 
+#containerMain section{
+    padding-bottom: 9%;
+}
 
 #containerMain aside img {
     padding-top: 12%;
