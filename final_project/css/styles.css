@@ -13,7 +13,7 @@ img{
     display: block;
 }
 #splashHTML{
-    background: url(/citc1300/final_project/index.html);
+    background: url(../final_project/index.html);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
