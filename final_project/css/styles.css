@@ -13,7 +13,7 @@ img{
     display: block;
 }
 #splashHTML{
-    background: url(../final_project/images/peerHFT.jpg);
+    background: url(./final_project/images/peerHFT.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
