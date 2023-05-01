@@ -107,6 +107,8 @@ h2,h3,h4,h5{
      color: #f024a9;
     margin-left: 9%;
     margin-top: 10%;
+    height:40%;
+    width: 80%;
 }
 
 
@@ -238,12 +240,22 @@ tr {
 }
 
 @media (max-width: 950px) {
-
+    #splashHTML{
+        
+        background: initial;
+        background-position: initial;
+        background-size: initial;
+        background-repeat: initial;
+        height: initial;
+        width: initial;
+        overflow: initial;
+        
+    }
    
 body{
     
     background-image: url(../images/peerHFT.jpg); 
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     
 }
 
@@ -329,17 +341,7 @@ h2,h3 {
 
 @media (max-width: 768px) {
 
-    #splashHTML{
-        
-        background: initial;
-        background-position: initial;
-        background-size: initial;
-        background-repeat: initial;
-        height: initial;
-        width: initial;
-        overflow: initial;
-        
-    }
+  
 #splashHeader{
     font-size: 3em;
 }
