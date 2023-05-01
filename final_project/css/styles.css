@@ -13,7 +13,7 @@ img{
     display: block;
 }
 #splashHTML{
-    background: url(/final_project/images/peerHFT.jpg);
+    background: url(https://github.com/gregclark2/citc1300/blob/main/final_project/images/peerHFT.jpg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ h1 {
    
 }
 
-h2,h3,h4,h5{
+h2,h3 {
     font-size: .1.5em;
     font-family: 'Bruno Ace SC', cursive;
     text-shadow: 4px 4px #034001;
